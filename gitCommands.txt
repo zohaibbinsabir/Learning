@@ -1,0 +1,16 @@
+echo "# master-repo" >> README.md
+git init
+git add .
+git commit -m "first master push"
+git branch -M main
+git remote add origin <link>
+git push -u origin main
+
+git add .
+git commit -m "master"
+git push
+
+Error: ! [rejected]        main -> main (fetch first)
+git fetch origin main:tmp
+git rebase tmp
+git push -u origin main
