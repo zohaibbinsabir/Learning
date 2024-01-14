@@ -46,6 +46,14 @@ print("Sum of ", num1, " and ", num2, " is: ", sumNumbers(num1, num2))
         statements
 """
 
+"""
+->  There are total 3 types of operators:
+    1. Arithmetic Operators: +, -, *, /, %, **, //
+    2. Comparison Operators: ==, !=, >, <, >=, <=
+    3. Logical Operators: and, or, not
+
+"""
+
 print()
 print("----- Discount Calculator -----")
 def discount(day, total):
@@ -78,4 +86,3 @@ print("----- Invite Friend to Sindh -----")
 province = input("What is your province: ")
 if not (province == "Sindh" or province == "sindh"):
     print("You should come visit Sindh Sometimes.")
-
