@@ -1,3 +1,16 @@
+# single line comment in python
+''' multi line comment in python '''
+""" multi line comment in python """
+
+
+
+
+
+
+
+
+
+
 """
 Difference between interpreter and compiler
 
