@@ -86,3 +86,32 @@ When we use if condition inside another if condition, it is called nested if sta
         else:
             statement
 """
+
+
+
+
+
+
+
+
+
+
+"""
+There are total 6 comparison operators in python
+1.  ==  (Equal to)
+2.  !=  (Not equal to)
+3.  >   (Greater than)
+4.  <   (Less than)
+5.  >=  (Greater than or equal to)
+6.  <=  (Less than or equal to)
+"""
+
+
+
+
+
+
+
+
+
+
