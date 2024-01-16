@@ -1,4 +1,102 @@
 """
+in python: there are 3 logical operators
+1. and
+2. or
+3. not
+
+1. and: if both conditions are true then it will return true
+2. or: if any one condition is true then it will return true
+3. not: it will reverse the result
+
+use of logical operators:
+if you want to check multiple conditions then you can use logical operators
+
+example:
+if num > 10 and num < 20:
+    print("num is greater than 10 and less than 20")
+else:
+    print("num is not greater than 10 and less than 20")
+
+if num > 10 or num < 20:
+    print("num is greater than 10 or less than 20")
+else:
+    print("num is not greater than 10 or less than 20")
+
+if not num > 10:
+    print("num is not greater than 10")
+else:
+    print("num is greater than 10")
+
+presedence of logical operators:
+1. not
+2. and
+3. or
+-> presedence means which operator will be executed first
+"""
+
+
+
+
+
+
+
+
+
+
+"""
+->  There are two types of loops in Python, for and while.
+
+->  The "for" loop
+    For loops iterate over a given sequence. Here is an example:
+        fruits = ["apple", "banana", "cherry"]
+        for x in fruits:
+            print(x)
+
+->  The "while" loop
+    With the while loop we can execute a set of statements as long as a condition is true.
+        i = 1
+        while i < 6:
+            print(i)
+            i += 1
+
+->  The break Statement
+    With the break statement we can stop the loop even if the while condition is true:
+        i = 1
+        while i < 6:
+            print(i)
+            if i == 3:
+                break
+            i += 1
+
+->  The continue Statement
+    With the continue statement we can stop the current iteration, and continue with the next:
+        i = 0
+        while i < 6:
+            i += 1
+            if i == 3:
+                continue
+            print(i)
+
+->  The else Statement
+    With the else statement we can run a block of code once when the condition no longer is true:
+        i = 1
+        while i < 6:
+            print(i)
+            i += 1
+        else:
+            print("i is no longer less than 6")
+"""
+
+
+
+
+
+
+
+
+
+
+"""
 ->  Arrays in python are called lists.
 ->  Lists are used to store multiple items in a single variable.
 ->  Lists are created using square brackets.
@@ -310,25 +408,3 @@
         print(thislist)
 
 """
-
-# sample list with use of len() function
-fruits = ["apple", "banana", "cherry"]  # list declaration
-print(len(fruits))  # will print 3
-
-# list with containing different data types
-random = [1,"master",'c',True]
-print(random)   # will print [1,"master",'c',True]
-print(type(random)) # will print <class 'list'>
-for i in random:    # i is the variable that will store the value of each element of the list
-    print(type(i))  # will print <class 'data_type'> for each element
-
-# acess items of list by positive & negative indexing
-print(fruits[0])    # will print apple
-print(fruits[1])    # will print banana
-print(fruits[2])    # will print cherry
-print(fruits[-1])   # will print cherry
-print(fruits[-2])   # will print banana
-print(fruits[-3])   # will print apple
-
-# range of indexes
-print(fruits[1:2])  # will print ['banana'] 
