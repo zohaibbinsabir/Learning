@@ -1,0 +1,158 @@
+<!DOCTYPE html> <!-- it indicates that we are using HTML 5 -->
+<html> <!-- html opening tag -->
+
+<head>
+
+</head>
+
+<body>
+    <header>
+
+    </header>
+
+    <main>
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+
+        <p>
+            The paragraph tag in HTML is used to define a paragraph. Now I'm going to end the line
+            <br> <!-- br tag is used to break the line -->
+            This is <b>bold</b> , <u>Underline</u> , <i>Italic</i> , <strong>Strong (bold)</strong> ,
+            <small>Small</small> , <big> big </big> text. Now I'm going to draw a line after this line.
+            <hr> <!-- hr tag is used to draw a line -->
+        </p>
+
+        <ul>
+            <li>Unordered List Item 1</li>
+            <li>Unordered List Item 2</li>
+            <li>Unordered List Item 3</li>
+        </ul>
+
+        <ol>
+            <li>Ordered List Item 1</li>
+            <li>Ordered List Item 2</li>
+            <li>Ordered List Item 3</li>
+        </ol>
+
+        <ol type="I">   <!-- Ordered List with Roman Numbering -->
+            <li>Ordered List Item 1</li>
+            <li>Ordered List Item 2</li>
+            <li>Ordered List Item 3</li>
+        </ol>
+
+        <!-- Nested Lists-->
+        <ol>
+            <li>Ordered List Item 1</li>
+            <li>Ordered List Item 2</li>
+            <li>Ordered List Item 3</li>
+            <ol>
+                <li><a href="github.com/zohaibbinsabir/Leaerning">My Github Repo</a></li>
+                <li><a href="temp.html">Second Page</a></li>
+                <li><a href="linkedin.com/in/zohaibbinsabir">My LinkedIn Profile</a></li>
+            </ol>
+        </ol>
+
+        <img src="https://img.freepik.com/free-psd/social-media-instagram-post-template_47618-73.jpg?size=338&ext=jpg&ga=GA1.1.632798143.1705449600&semt=ais" alt="From Online Server" width="300" height="300">
+        <img src="Static/temp image 1.png" alt="From Local" width="300" height="300">
+
+        <table border="1">  <!-- table tag is used to define table -->
+            <tr>    <!-- tr tag is used to define table row -->
+                <th>Heading 1</th>  <!-- th tag is used to define table heading -->
+                <th>Heading 2</th>
+                <th>Heading 3</th>
+            </tr>
+            <tr>
+                <td>Row 1 Col 1</td>    <!-- td tag is used to define table data -->
+                <td>Row 1 Col 2</td>
+                <td>Row 1 Col 3</td>
+            </tr>
+            <tr>
+                <td>Row 2 Col 1</td>
+                <td>Row 2 Col 2</td>
+                <td>Row 2 Col 3</td>
+            </tr>
+            <tr>
+                <td>Row 3 Col 1</td>
+                <td>Row 3 Col 2</td>
+                <td>Row 3 Col 3</td>
+            </tr>
+        </table>
+
+        <br>
+
+        <table border="1">
+            <tr>
+                <th>Name</th>
+                <td>Zohaib</td>
+                <td>Khubaib</td>
+            </tr>
+            <tr>
+                <th>Age</th>
+                <td>20</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <th>Education</th>
+                <td>BS CS</td>
+                <td>Intermediate</td>
+            </tr>
+        </table>
+
+        <!--
+            There are three methods in form tag
+            1. get   (data is visible in url)
+            2. post (data is not visible in url)
+            3. request  (data is visible in url)    
+
+            By default method is get but post is secure method
+        -->
+
+        <form method="post">
+            <!---
+            We are using for attribute in label tag to link it with input tag
+            we are using id attribute in input tag to link it with label tag
+            it is best practice to use for and id attribute in label and 
+                input tag respectively
+            -->
+            <label for="username">Username: </label>
+            <input type="text" placeholder="Enter Username" id="username" required>
+            <br>
+            <label for="password">Password: </label>
+            <input type="password" placeholder="Enter Password" id="password" minlength="8">
+            <br>
+            <label for="email">Email: </label>
+            <input type="email" placeholder="Enter Email" id="email">
+            <br>
+            <label>Your query: </label>
+            <textarea placeholder="Enter your query"></textarea>
+            <br>
+            <input type="date">
+            <br>
+            <input type="checkbox"> <label>Remember Me</label>
+            <br>
+            <input type="button" value="Button">
+            <br>
+            <input type="radio"> <label>Radio Button: used for male/female type options</label>
+            <br>
+            <select>
+                <option>option 1</option>
+                <option>option 2</option>
+            </select>
+            <br>
+            <input type="radio" name="gender"> <label>Male</label>
+            <input type="radio" name="gender"> <label>Female</label>
+            <br>
+            <input type="submit" value="Login">
+        </form>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+
+</html> <!-- html closing tag -->
