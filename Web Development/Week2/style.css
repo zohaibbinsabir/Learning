@@ -1,0 +1,144 @@
+/* Basic Reset */
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header
+{
+    background-color: #ffffff;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: #D49331 0px 0px 10px;
+}
+
+/* Logo */
+header div
+{
+    display: flex;
+    align-items: center;
+}
+
+/* The Sign of Infinity in header */
+header div a
+{
+    color: #D49331;
+    font-size: 1.5em;
+    font-family: lovelo;
+    text-decoration: none;
+}
+
+/* Navigation */
+nav
+{
+    display: flex;
+    width: auto;
+    height: auto;
+    align-items: center;
+}
+
+/* Navigation Links */
+nav a
+{
+    color: #D49331;
+    font-size: 1.5rem;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+#headerText
+{
+    display: flex;
+    text-align: center;
+    font-family: lovelo;
+    font-size: 60px;
+    margin: 50px;
+    color: #D49331;
+}
+
+.images
+{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+main div img
+{
+    border-radius: 50px 20px;
+    background-color: #D49331;
+}
+
+main div img:hover
+{
+    border: 5px solid #D49331;
+    transform: scale(1.1);
+    transition: 0.5s;
+    animation: ease-out;
+}
+
+main ul
+{
+    list-style-type: none;
+}
+
+#types
+{
+    display: flex;
+    color: #D49331;
+    margin: 50px;
+    margin-bottom: 80px;
+}
+
+.items
+{
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 25px;
+    border: 1px solid #D49331;
+    flex: 1;
+    text-align: center;
+}
+
+.items h1
+{
+    border-radius: 35px;
+    font-family: lovelo;
+    background-color: #D49331;
+    color: #ffffff;
+}
+
+.items ul li
+{
+    margin: 10px;
+    font-family: lovelo;
+}
+
+.items ol li
+{
+    margin: 10px;
+    font-family: lovelo;
+}
+
+/* Footer */
+footer
+{
+    padding: 10px;
+    justify-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #D49331;
+    color: white;
+}
+
+/* Footer Paragraph */
+footer p
+{
+    text-align: center;
+    font-size: 1.2rem;
+}
